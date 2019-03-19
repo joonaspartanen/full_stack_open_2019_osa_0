@@ -1,0 +1,13 @@
+note over selain:
+Sivuston Javascript-koodi käsittelee lähetettävän
+muistiinpanon. Lomakkeen oletusarvoinen lähetys-
+toiminto estetään, jottei sivua ladattaisi uudelleen.
+
+Javascript luo muistiinpanon, lisää sen listalle ja 
+piirtää uuden sisällön ruudulle.
+
+Lopuksi Javascript lähettää muistiinpanon palvelimelle.
+end note
+
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin-->selain: Palvelin vastaa statuskoodilla 201 Created
